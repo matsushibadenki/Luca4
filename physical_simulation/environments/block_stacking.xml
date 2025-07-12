@@ -1,0 +1,28 @@
+<mujoco model="block_stacking">
+  <compiler angle="radian" inertiafromgeom="true"/>
+  <option gravity="0 0 -9.81" />
+  <worldbody>
+    <light diffuse=".5 .5 .5" pos="0 0 3" dir="0 0 -1"/>
+    <geom type="plane" size="1 1 0.1" rgba=".9 .9 .9 1"/>
+    <body name="object0" pos="0.0 0.0 0.025">
+      <joint type="free" limited="false"/>
+      <geom type="box" size="0.025 0.025 0.025" rgba="1 0 0 1" mass="0.1"/>
+    </body>
+    <body name="object1" pos="0.1 0.0 0.025">
+      <joint type="free" limited="false"/>
+      <geom type="box" size="0.025 0.025 0.025" rgba="0 1 0 1" mass="0.1"/>
+    </body>
+    <body name="object2" pos="0.2 0.0 0.025">
+      <joint type="free" limited="false"/>
+      <geom type="box" size="0.025 0.025 0.025" rgba="0 0 1 1" mass="0.1"/>
+    </body>
+    <body name="object3" pos="0.3 0.0 0.025">
+      <joint type="free" limited="false"/>
+      <geom type="box" size="0.025 0.025 0.025" rgba="1 1 0 1" mass="0.1"/>
+    </body>
+    <body name="object4" pos="0.4 0.0 0.025">
+      <joint type="free" limited="false"/>
+      <geom type="box" size="0.025 0.025 0.025" rgba="0 1 1 1" mass="0.1"/>
+    </body>
+  </worldbody>
+</mujoco>
