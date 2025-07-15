@@ -1,0 +1,44 @@
+# /requirements.txt
+# title: Pythonパッケージ依存関係リスト
+# role: このプロジェクトの実行に必要なすべてのPythonライブラリとそのバージョンを定義する。
+
+# --- 主要AI・LLM関連ライブラリ ---
+ollama
+langchain
+langchain-core
+langchain-community
+langchain-google-community
+langchain-tavily
+llama-cpp-python
+
+# --- ベクトルストア・検索関連 ---
+faiss-cpu
+wikipedia
+google-search-results
+
+# --- アプリケーションフレームワーク・ユーティリティ ---
+dependency-injector
+pydantic
+
+# --- Web API関連 (追加) ---
+fastapi
+uvicorn[standard]
+tavily-python
+
+# --- 数値計算ライブラリ (バージョン指定) ---
+numpy<2.0
+
+# --- 環境変数 ---
+python-dotenv
+
+# --- 物理シミュレーション関連 ---
+gymnasium
+gymnasium-robotics
+mujoco
+torch
+# ◾️◾️◾️◾️◾️◾️◾️◾️◾◾️↓修正開始◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️
+torchvision
+# ◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️↑修正終わり◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️
+
+# --- Webブラウジング関連 ---
+playwright
