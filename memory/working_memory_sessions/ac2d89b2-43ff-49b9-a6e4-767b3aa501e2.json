@@ -1,0 +1,15 @@
+{
+    "session_id": "ac2d89b2-43ff-49b9-a6e4-767b3aa501e2",
+    "prediction_errors": [
+        {
+            "error_type": "新規情報なし",
+            "summary": "挨拶に対する返答を期待していたが、挨拶に対する単純な返答だけが入力されたため、予測誤差は生じませんでした。",
+            "key_info": [
+                "挨拶",
+                "返答",
+                "予測"
+            ]
+        }
+    ],
+    "context_summary": ""
+}

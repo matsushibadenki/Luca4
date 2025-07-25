@@ -1,0 +1,14 @@
+{
+    "session_id": "d1bfbf78-3b4d-4c2d-99f6-dd185556aee7",
+    "prediction_errors": [
+        {
+            "error_type": "新規情報なし",
+            "summary": "ユーザーが干物の作り方について尋ねているという、非常に一般的な質問であるため、予測する情報に大きな違いはありませんでした。",
+            "key_info": [
+                "干物",
+                "作り方"
+            ]
+        }
+    ],
+    "context_summary": ""
+}
